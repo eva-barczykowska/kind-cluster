@@ -4,7 +4,7 @@ metadata:
   name: go-hello-world
   namespace: flux-magic
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: go-hello-world
