@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: gcr.io/google-samples/hello-app:1.0 # A lightweight Go app
+        image: gcr.io/google-samples/hello-app:2.0 # A lightweight Go app
         ports:
         - containerPort: 8080
 ---
